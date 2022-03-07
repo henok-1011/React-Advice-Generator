@@ -1,0 +1,55 @@
+body {
+  font-family: Montserrat;
+  color: hsl(193, 38%, 86%);
+  font-family: san sarif;
+  background: hsl(218, 23%, 16%);
+}
+
+.advice__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  min-width: 300px;
+  background-color: hsl(217, 19%, 24%);
+  text-align: center;
+  margin: 10% auto;
+  padding: 10px 25px 50px 25px;
+  border-radius: 10px;
+}
+
+.advice {
+  font-size: 28px;
+}
+.advice__id {
+  color: hsl(150, 100%, 66%);
+  text-transform: upperCase;
+}
+
+.adivce__separator__desk {
+  padding: 15px 0 5px 0;
+  margin: 0 auto;
+}
+.adivce__separator__moblie {
+  padding: 15px 0 5px 0;
+  margin: 0 auto;
+  display: none;
+}
+
+.button {
+  position: absolute;
+  bottom: 0;
+  left: 45.5%;
+  transform: translateY(50%);
+  background: hsl(150, 100%, 66%);
+  padding: 10px;
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .adivce__separator__desk {
+    display: none;
+  }
+  .adivce__separator__mobile {
+    display: inline;
+  }
+}
